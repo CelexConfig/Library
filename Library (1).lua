@@ -3521,17 +3521,6 @@ do
 
             Glow2.Size = UDim2.new(1, 100, 1, 100)
             Glow2.ImageTransparency = 0.8
-            
-            Glow.ImageColor3 = Library.AccentColor
-            Stroke.Color = Library.AccentColor
-
-            Library:AddToRegistry(Glow, {
-                ImageColor3 = "AccentColor"
-            })
-
-            Library:AddToRegistry(Stroke, {
-                Color = "AccentColor"
-            })
 
             local Inner = Library:Create("Frame", {
                 BackgroundColor3 = Library.MainColor;
