@@ -1,4 +1,4 @@
-ttps://raw.githubusercontent.com/CelexConfig/Library/refs/heads/main/Library.luaalocal cloneref = (cloneref or clonereference or function(instance: any)
+local cloneref = (cloneref or clonereference or function(instance: any)
 	return instance
 end)
 local InputService: UserInputService = cloneref(game:GetService("UserInputService"))
